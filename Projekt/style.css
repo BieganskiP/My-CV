@@ -1,0 +1,158 @@
+.rectangle {
+    position: absolute;
+    width: 1200px;
+    height: 1319px;
+    left: 450px;
+    top: 40px;
+    font-family: sans-serif;
+
+    background: #ffffff;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.intro {
+    position: absolute;
+    width: 400px;
+    height: 230px;
+    left: 500px;
+    top: 142px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.intro h2 {
+    text-decoration: underline;
+}
+.intro p {
+    margin-top: -5px;
+}
+
+.leftbar {
+    position: absolute;
+    width: 40px;
+    height: 1319px;
+    background-color: #fb6d3a;
+}
+.rightbar {
+    position: absolute;
+    width: 40px;
+    height: 1319px;
+    left: 1160px;
+    background-color: #fb6d3a;
+}
+
+.left {
+    position: absolute;
+    width: 370px;
+    height: 1319px;
+    left: 40px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    background-color: #1e2939;
+}
+.left h4 {
+    text-decoration: underline;
+}
+
+.photo {
+    position: absolute;
+    width: 370px;
+    height: 354px;
+    top: 80px;
+    border-radius: 20px;
+
+    background-image: url(images/photo.jpg);
+}
+
+.con {
+    position: absolute;
+    top: 440px;
+    left: 20px;
+    color: white;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.con p {
+    margin-top: -8px;
+    color: #a8a8a8;
+}
+
+.projects {
+    position: absolute;
+    width: 400px;
+    height: 230px;
+    left: 500px;
+    top: 300px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.projects h2 {
+    text-decoration: underline;
+}
+ul {
+    right: 20 px;
+}
+.workexp {
+    position: absolute;
+    width: 400px;
+    height: 230px;
+    left: 500px;
+    top: 500px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.workexp h2 {
+    text-decoration: underline;
+}
+.job h2 {
+    text-decoration: underline;
+}
+.job h3 {
+    color: #fb6d3a;
+    margin-top: -10px;
+}
+.job h4 {
+    margin-top: -10px;
+    color: #a8a8a8;
+}
+.job span {
+    color: black;
+}
+
+.edu {
+    position: absolute;
+    width: 400px;
+    height: 230px;
+    left: 500px;
+    top: 900px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.edu h2 {
+    text-decoration: underline;
+}
+.edu h3 {
+    color: #fb6d3a;
+    margin-top: -10px;
+}
+.edu h4 {
+    margin-top: -10px;
+}
