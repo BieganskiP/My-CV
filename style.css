@@ -12,6 +12,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+    color: #1e2939;
 
     background: #ffffff;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
@@ -47,7 +48,7 @@ a {
     height: 354px;
     top: 80px;
     border-radius: 20px;
-    background-image: url(https://raw.githubusercontent.com/BieganskiP/My-Projects/main/photo.jpg);
+    background-image: url(photos/photo.jpg);
 }
 .con {
     position: absolute;
@@ -100,19 +101,23 @@ a {
     width: 400px;
     height: auto;
     left: 500px;
-    top: 350px;
+    top: 320px;
 }
 .workexp {
     position: absolute;
     width: 400px;
     height: 230px;
     left: 500px;
-    top: 450px;
+    top: 400px;
+}
+.job p {
+    margin-top: -15px;
+    margin-bottom: 20px;
 }
 .edu {
     position: absolute;
     width: 400px;
     height: 230px;
     left: 500px;
-    top: 850px;
+    top: 1050px;
 }
