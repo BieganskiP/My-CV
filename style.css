@@ -45,7 +45,7 @@ a {
     height: 354px;
     top: 80px;
     border-radius: 20px;
-    background-image: url(photos/photo.jpg);
+    background-image: url(https://raw.githubusercontent.com/BieganskiP/My-Projects/main/photo.jpg);
 }
 .con {
     position: absolute;
