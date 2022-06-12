@@ -1,24 +1,15 @@
 /*Body, everything is contained within it + global tags*/
-
 body {
-    position: absolute;
-    width: 1200px;
-    height: 1319px;
-    left: 400px;
-    top: 40px;
-
-    font-family: sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     color: #1e2939;
 
-    background: #ffffff;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    background: #faf5f586;
 }
 ul {
-    margin-top: -15px;
     padding-left: 15px;
 }
 ol {
@@ -30,91 +21,78 @@ span {
 a {
     color: #a8a8a8;
 }
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+
+    width: 1200px;
+    height: 1319px;
+
+    justify-content: center;
+    margin: 0 auto;
+
+    background: #ffffff;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
 
 /*sidepanel, contact details, skill list and tech skill list*/
-.left {
-    position: absolute;
-    width: 370px;
+aside {
     height: 1319px;
-    margin-left: 40px;
+
     background-color: #1e2939;
 }
 .photo {
-    position: absolute;
     width: 370px;
     height: 354px;
-    top: 80px;
+
+    margin: 30px 0px 10px 0px;
+
     border-radius: 20px;
     background-image: url(https://raw.githubusercontent.com/BieganskiP/My-Projects/main/photo.jpg);
 }
 .con {
-    position: absolute;
-    top: 440px;
-    left: 20px;
     color: white;
-}
-.con p {
-    margin-top: -8px;
+    margin: 10px 20px 5px 20px;
+    padding: 10px;
 }
 .skills1 {
-    position: absolute;
-    top: 600px;
-    left: 20px;
-
     color: white;
-    width: 200px;
-    height: 300px;
+    margin: 5px 20px 5px 20px;
+    padding: 10px;
 }
 .skills2 {
-    position: absolute;
-    top: 700px;
-    left: 20px;
-
     color: white;
-    width: 200px;
-    height: 300px;
+    margin: 5px 20px 5px 20px;
+    padding: 10px;
+}
+.skills3 {
+    color: white;
+    margin: 5px 20px 5px 20px;
+    padding: 10px;
 }
 
 /*Main part of CV divided in to sections*/
 .title {
-    position: absolute;
-    width: 400px;
-    height: 230px;
-    left: 500px;
-    top: 100px;
+    margin: 20px 40px 20px 40px;
+    padding: 10px;
 }
 .about {
-    position: absolute;
-    width: 400px;
-    height: 230px;
-    left: 500px;
-    top: 200px;
-}
-.about p {
-    margin-top: -5px;
+    margin: 10px 40px 10px 40px;
+    padding: 10px;
 }
 .projects {
-    position: absolute;
-    width: 400px;
-    height: auto;
-    left: 500px;
-    top: 320px;
+    margin: 10px 40px 10px 40px;
+    padding: 10px;
 }
 .workexp {
-    position: absolute;
-    width: 400px;
-    height: 230px;
-    left: 500px;
-    top: 400px;
+    margin: 10px 40px 5px 40px;
+    padding: 10px;
 }
-.job p {
-    margin-top: -15px;
-    margin-bottom: 20px;
+.workexp p {
+    color: #a8a8a8;
+    margin-top: -20px;
 }
 .edu {
-    position: absolute;
-    width: 400px;
-    height: 230px;
-    left: 500px;
-    top: 1050px;
+    margin: 5px 40px 10px 40px;
+    padding: 10px;
 }
