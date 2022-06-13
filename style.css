@@ -15,11 +15,23 @@ ul {
 ol {
     padding-left: 15px;
 }
+a {
+    color: #8e949c;
+}
+h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+h2 {
+    font-weight: 700;
+    font-size: 22px;
+}
+h3 {
+    font-weight: 700;
+    font-size: 17px;
+}
 span {
     color: #fb6d3a;
-}
-a {
-    color: #a8a8a8;
 }
 .wrapper {
     display: flex;
@@ -33,32 +45,6 @@ a {
 
     background: #ffffff;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
-}
-
-/*sidepanel, contact details, skill list and tech skill list*/
-aside {
-    height: 1319px;
-
-    background-color: #1e2939;
-}
-.photo {
-    width: 370px;
-    height: 354px;
-
-    margin: 30px 0px 10px 0px;
-
-    border-radius: 20px;
-    background-image: url(https://raw.githubusercontent.com/BieganskiP/My-Projects/main/photo.jpg);
-}
-.con {
-    color: white;
-    margin: 10px 20px 5px 20px;
-    padding: 10px;
-}
-.skills {
-    color: white;
-    margin: 5px 20px 5px 20px;
-    padding: 10px;
 }
 
 /*Main part of CV divided in to sections*/
@@ -77,15 +63,63 @@ aside {
     margin: 10px 40px 10px 40px;
     padding: 10px;
 }
-.workexp {
+.project-item {
+    font-weight: 800;
+    color: #000000;
+}
+.project-item2 {
+    color: #595959;
+}
+.work-exp {
     margin: 10px 40px 5px 40px;
     padding: 10px;
 }
-.workexp p {
+.work-exp p {
     color: #a8a8a8;
     margin-top: -20px;
 }
-.edu {
+.education {
     margin: 5px 40px 10px 40px;
     padding: 10px;
+}
+.job li {
+    color: #595959;
+}
+
+/*sidepanel, contact details, skill list and tech skill list*/
+aside {
+    height: 1319px;
+    width: 370px;
+    color: white;
+    background-color: #1e2939;
+}
+.photo {
+    width: 370px;
+    height: 354px;
+
+    margin: 30px 0px 10px 0px;
+
+    border-radius: 20px;
+    background-image: url(https://raw.githubusercontent.com/BieganskiP/My-Projects/main/photo.jpg);
+}
+.contacts {
+    margin: 10px 20px 5px 20px;
+    padding: 10px;
+}
+.bold {
+    font-weight: 700;
+    color: #ffffff;
+}
+.skills {
+    margin: 5px 20px;
+    padding: 10px;
+}
+.skills img {
+    margin-left: 20px;
+}
+.skills li {
+    color: #fb6d3a;
+}
+.skills li span {
+    color: #ffffff;
 }
