@@ -21,14 +21,17 @@ a {
 h1 {
     font-weight: 700;
     font-size: 45px;
+    line-height: 55px;
 }
 h2 {
     font-weight: 700;
     font-size: 22px;
+    line-height: 27px;
 }
 h3 {
     font-weight: 700;
-    font-size: 17px;
+    font-size: 16px;
+    line-height: 20px;
 }
 span {
     color: #fb6d3a;
@@ -48,20 +51,27 @@ span {
 }
 
 /*Main part of CV divided in to sections*/
-.title {
-    margin: 20px 40px 20px 40px;
-    padding: 10px;
-
-    font-weight: 700;
-    font-style: bold;
+main {
+    padding: 102px 88px;
 }
-.about {
-    margin: 10px 40px 10px 40px;
-    padding: 10px;
+.title {
+    height: 220px;
+    width: 500px;
+    margin-bottom: 40px;
+}
+.title p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.job-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
 }
 .projects {
-    margin: 10px 40px 10px 40px;
-    padding: 10px;
+    margin-bottom: 51px;
 }
 .project-item {
     font-weight: 800;
@@ -69,21 +79,24 @@ span {
 }
 .project-item2 {
     color: #595959;
-}
-.work-exp {
-    margin: 10px 40px 5px 40px;
-    padding: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
 }
 .work-exp p {
     color: #a8a8a8;
-    margin-top: -20px;
 }
-.education {
-    margin: 5px 40px 10px 40px;
-    padding: 10px;
+.job p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #a8a8a8;
 }
 .job li {
     color: #595959;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 /*sidepanel, contact details, skill list and tech skill list*/
